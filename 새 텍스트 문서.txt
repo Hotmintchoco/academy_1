@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+강사님 깃허브: https://github.com/sinaboro/Ezen01
+
+
+=======
+>>>>>>> a84f3191324750278aa8c7a91b76a99776d5795f
+1. git init
+
+2. git config --global user.email "yumkl123@gmail.com"
+
+3. git config --global user.name "원하는 이름."
+
+4. git add .			 << 추가.
+
+5. git commit -m "commit detail" 	 << 추가시 실행
+
+6. git remote add origin github주소.
+
+7. git push origin master	 	 << 추가시 실행
+
+8. 개인 저장소 변경사항 확인 git status
+
+-------------------------------------------------------
+
+다른 pc에서 폴더 생성 git bash
+
+9. git clone github주소 . (점찍기)
+
+git add .
+git commit -m "comment"
+git push origin master
+
+git pull origin master
