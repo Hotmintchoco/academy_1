@@ -10,6 +10,9 @@ import org.jsoup.select.Elements;
 public class naverTest {
 
 	public static void main(String[] args) throws IOException {
+		Database db = new Database();
+		db.getConnection();
+		
 		int pages = 2;
 		
 		for (int i = 0; i < pages; i++) {
@@ -46,6 +49,9 @@ public class naverTest {
 				
 				System.out.println(title);
 				System.out.println(content);
+				db.mydbInsert(j, title, content);
+				
+				
 			}
 		}
 	}
